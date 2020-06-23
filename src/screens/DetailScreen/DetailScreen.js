@@ -73,6 +73,8 @@ function DetailScreen() {
         isMuted={false}
         shouldPlay={false}
         ref={videoRef}
+        resizeMode="contain"
+        style={{ flex: 1 }}
       />
     </ScrollView>
   );
